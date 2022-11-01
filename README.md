@@ -20,15 +20,15 @@ pip install -r requirements.txt
 
 for all namespaces:
 ```
-python3 main.py
+python3 kubeapitool.py
 ```
 
 Specific namespace:
 ```
-python3 main.py -n subsonic
+python3 kubeapitool.py -n subsonic
 ```
 
 Specific namespace & custom configfile:
 ```
-python3 main.py -n subsonic -c kubeconfig
+python3 kubeapitool.py -n subsonic -c kubeconfig
 ```
