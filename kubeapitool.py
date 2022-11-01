@@ -2,8 +2,8 @@
 #
 # Intellisense DevOps Test B
 #
-# Notes
-# -----------------
+# Notes:
+# ------------------------------------
 # Images of each deployment I understand that as a number of replicas available on the deployment, if we want to know the images of each deployment [pod list, and then image]
 # Date of deployment was updated. I understood that as the last time the deployment got an update in the pod count, pod restarted or whatever. 
 
