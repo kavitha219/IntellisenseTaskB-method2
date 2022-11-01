@@ -17,13 +17,10 @@ ENV PACKAGES="bash \
 
 ADD . /opt/intellisense
 WORKDIR /opt/intellisense
-
 RUN apk add --no-cache $PACKAGES
-
-# Install and upgrade Pip & Requeriments
+# Install and upgrade Pip & Requirements
 RUN easy_install pip \
     && pip install --upgrade pip \
     && pip install -r /opt/intellisense/requeriments.txt
-
-# since we will be "always" mounting the volume, we can set this up
+# As we "always" mount the volume, we can set this up
 CMD ["python", "main.py"]
